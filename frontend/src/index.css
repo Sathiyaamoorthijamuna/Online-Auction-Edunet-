@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.page-container {
+  margin-left: 220px;
+  padding: 50px;
+  background: white;
+  min-height: 100vh;
+}

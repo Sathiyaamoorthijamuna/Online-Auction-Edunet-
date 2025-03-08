@@ -1,0 +1,45 @@
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+.dashboard-container h2{
+  margin-left: 200px;
+}
+.auction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+}
+
+.dashboard-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.dashboard-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.dashboard-card p {
+  font-size: 14px;
+  color: #555;
+}

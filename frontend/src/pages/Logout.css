@@ -1,0 +1,12 @@
+.page-container {
+    margin-left: 220px;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: red;
+  }
+  

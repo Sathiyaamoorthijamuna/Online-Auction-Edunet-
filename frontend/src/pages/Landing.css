@@ -1,0 +1,73 @@
+/* Full-page Background */
+.landing-container {
+  /* background: url('https://elsner.b-cdn.net/wp-content/uploads/2018/06/Auction-system.jpg') no-repeat center center/cover; */
+  background: linear-gradient(135deg, #ef63ef,#43a7ce);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+/* Top navigation bar */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.nav-button {
+  text-decoration: none;
+  background: #dc8100;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background: #e64a19;
+}
+
+/* Main Content */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Start Bidding Button */
+.start-bidding-container {
+  margin-top: 40px;
+}
+
+.start-bidding {
+  background: #00c853;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.start-bidding:hover {
+  background: #009624;
+}
